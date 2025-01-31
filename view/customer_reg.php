@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
     <title>Customer Registration</title>
+    <link rel="stylesheet" href="../css/reg_design.css">
 </head>
 <body>
     <h2>Customer Registration</h2>
+    <div class="container">
     <form action="..\control\reg_control.php" method="POST">
+   
         <fieldset>
             <legend>Customer Information</legend>
             <table>
@@ -66,5 +69,6 @@
         <button type="submit">Register</button>
         <button type="reset">Clear Form</button>
     </form>
+</div>
 </body>
 </html>

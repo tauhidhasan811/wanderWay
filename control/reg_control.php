@@ -23,6 +23,7 @@ else
 {
     
 }
+
 $obj = new data_insert();
 $conobj = $obj->connection();
 $obj->insert_customer(
@@ -33,8 +34,8 @@ $obj->insert_customer(
     $_POST['phone'],
     $_POST['password'],
     $_POST['gender'],
+    $_POST['nidnum'],
     $_POST['nationality'],
-    $_POST['pass_num'],
     $_POST['econtactnumber'],
     $_POST['image']
 );

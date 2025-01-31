@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(black,yellow, green,blue);
+}
+
+.container {
+background-color: lightgrey;
+padding: 100px;
+border-radius: 10px;
+width: 44%;
+height: 70%;
+}
+.profile {
+    font-family: algerian;
+    text-align: center;
+    border-bottom:3px dashed red ;
+}
+form .container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+form .container2 .inputbox{
+    width:calc(100%/2 - 20px);
+    margin: 10px;
+}
+form .container2 .inputbox input{
+    height: 45px;
+    width: 100%;
+}
+.lastinput{
+   width: 100%;
+   text-align: center;
+   font-size: 25px;
+   background-color: rgb(37, 37, 235);
+   color: white;
+   border: none;
+   height: 1cm;
+   display: block; /* Forces it to a new row */
+   margin-top: 40px; /* Adds spacing from inputs */
+}
+.gender-options {
+    display: flex;
+    gap: 20px; /* Space between radio buttons */
+    align-items: center;
+}
+
+.gender-options label {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between radio button and text */
+}

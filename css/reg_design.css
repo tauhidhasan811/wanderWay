@@ -1,0 +1,149 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #b4abb4, #672fce);
+}
+
+
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  background-color: #d2fbf8;
+  padding:20px 50px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
+
+    position: relative; /* Enables shifting */
+    top: 20px; /* Moves the header up */
+    left: -100px; /* Shifts the header to the left */
+}
+fieldset {
+  border: 4px solid #9b59b6;
+  border-radius: 10px;
+  padding: 20px;
+}
+* Form Legend */
+legend {
+  font-size: 1.2rem;
+  color: #9b59b6;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 1px 1px;
+  font-size: 1.1rem;
+  color: #000000;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"],
+input[type="nid_number"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus and Valid States for Inputs */
+input:focus {
+  border-color: #9b59b6;
+  outline: none;
+}
+
+input:valid {
+  border-color: #918eb7;
+}
+
+/* Buttons */
+button[type="submit"],
+button[type="reset"] {
+  background-color: #9b59b6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 5px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+  background-color: #803b9d;
+}
+
+button[type="reset"] {
+  background-color: #e74c3c;
+}
+
+button[type="reset"]:hover {
+  background-color: #c0392b;
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* File Input */
+input[type="file"] {
+  padding: 5px;
+  border: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  table {
+    display: block;
+  }
+
+  td {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+
+  /* Adjust position */
+  position: relative; /* Enables shifting */
+  top: -265px; /* Moves the header up */
+  left: 355px; /* Shifts the header to the left */
+}
+
+
+

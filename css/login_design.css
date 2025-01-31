@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(aaa.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .wrapper {
+    height: 300px;
+    width: 350px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .wrapper h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .input-box {
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    margin: 20px 0;
+    position: relative;
+  }
+
+  .input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    outline: none;
+    color: #fff;
+    padding: 0 15px;
+    font-size: 14px;
+  }
+
+  .input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .btn {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    transition: 0.3s ease;
+    margin-top: 10px;
+  }
+
+  .btn:hover {
+    background: #29aa52;
+    color: #fff;
+    box-shadow: 0 8px 20px rgba(255, 127, 127, 0.5);
+  }
