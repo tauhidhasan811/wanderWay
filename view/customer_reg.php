@@ -70,5 +70,6 @@
         <button type="reset">Clear Form</button>
     </form>
 </div>
+<script type="module" src="../control/validate_form.js"></script>
 </body>
 </html>

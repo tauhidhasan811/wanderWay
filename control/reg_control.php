@@ -39,5 +39,3 @@ $obj->insert_customer(
     $_POST['econtactnumber'],
     $_POST['image']
 );
-
-?>
