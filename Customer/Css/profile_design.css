@@ -1,0 +1,105 @@
+body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(mmm.jpeg) no-repeat;
+    background-size: cover;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Header styles */
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Button container styles */
+.button-container {
+    display: flex;
+    gap: 15px; /* Adds space between buttons */
+    margin-top: 20px;
+}
+
+/* Button styles */
+button {
+    padding: 5px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Show Data Button */
+button[name="show"] {
+    background-color: #544caf; /* Green */
+    color: white;
+    position: absolute;  /* Use absolute positioning */
+    top: 20px;  /* Distance from the top */
+    right: 130px;
+    padding: 10px 20px; 
+}
+
+button[name="show"]:hover {
+    background-color: #45a049;
+}
+
+/* Edit Profile Button */
+button[name="edit"] {
+    background-color: #2196f3; /* Blue */
+    color: white;
+    position: absolute;  /* Use absolute positioning */
+    top: 410px;  /* Distance from the top */
+    right: 580px; 
+}
+
+button[name="edit"]:hover {
+    background-color: #1976d2;
+}
+
+/* Delete Profile Button */
+button[name="delete"] {
+    background-color: #f44336; /* Red */
+    color: white;
+    position: absolute;  /* Use absolute positioning */
+    top: 410px;  /* Distance from the top */
+    right: 440px; 
+}
+
+button[name="delete"]:hover {
+    background-color: #d32f2f;
+}
+
+/* Logout Button */
+button[name="logout"] {
+    background-color: #ff9800; /* Orange */
+    color: white;
+    position: absolute;  /* Use absolute positioning */
+    top: 410px;  /* Distance from the top */
+    right: 706px; 
+    
+}
+
+button[name="logout"]:hover {
+    background-color: #e68900;
+}
+
+/* Package Button */
+button[name="package"] {
+    background-color: #27b0b0; /* Purple */
+    color: white;
+    position: absolute;  /* Use absolute positioning */
+    top: 20px;  /* Distance from the top */
+    right: 20px; 
+    padding: 10px 20px; 
+}
+
+button[name="package"]:hover {
+    background-color: #7b1fa2;
+}
