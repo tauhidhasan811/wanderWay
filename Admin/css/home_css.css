@@ -1,0 +1,88 @@
+*
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #313131;
+    color: #fffefe;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #efa6a6;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    color: #000000;
+}
+
+.a
+{
+    color: #080808;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.drop_down_login
+{
+    background-color: #efa6a6;
+    border: 0px solid #020202;
+    width:70px;
+}
+.drop_down_create
+{
+    background-color: #efa6a6;
+    border: 0px solid #000000;
+    width:fit-content;
+
+}
+
+footer {
+    bottom: 0px;
+    position:absolute;
+    color: #b20808;
+    padding: 20px 0 0 0;
+    margin-left: 20px;
+}
+
+.button-container {
+    flex-wrap: wrap; 
+}
+.custom-button {
+   position:initial;
+   text-align: left;
+   background-color: rgb(244, 213, 213);
+   color: rgb(0, 0, 0);
+   font-size: 14px;
+   font-weight: bold;
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 5px;
+   width:200px;
+   height: 100px;
+   max-width:200px;
+   max-height: 100px;
+   cursor: pointer;
+   margin-top: 10px;
+   margin-left: 2px;
+   margin-right: 2px;
+   border-color:4px solid #333;
+}
+.logout
+{
+    background-color:#efa6a6 ;
+    border: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    cursor:pointer
+}
+
+

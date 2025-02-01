@@ -1,0 +1,128 @@
+/* style.css */
+*{
+    background-color: 	#dee3c4;
+}
+h2 {
+    position: sticky;
+    color: #811089;
+    text-align: left;
+    
+}
+
+legend
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #0f2788;
+}
+/* Ensure the entire body content is centered */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    font-family: Arial, sans-serif;
+    background-image: url('4k-fall-v4vmc20bp5mwtdaq.jpg');
+    text-align: center; /* Center-align text in all elements */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+}
+
+/* Form styling */
+form {
+    padding: 30px;
+    border: 1px solid #bb924a; /* Light border for visibility */
+    
+    width: auto; /* Automatically adjusts width */
+    display: inline-block; /* Keep form contents centered horizontally */
+}
+
+/* Fieldset styling */
+fieldset {
+    border: 1px solid #fae5c2; /* Light border */
+    text-align: center; /* Center-align content */
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse; /* Remove table spacing */
+    margin: auto; /* Center the table within the form */
+    text-align: left; /* Align table text left for readability */
+    
+}
+.error
+{
+    font-size: 12px;
+    color: red;
+    
+}
+
+
+.input_box
+{
+    
+    background-color: #f9f9f9;
+    width: 50%;
+}
+
+.input 
+{
+    width: 100%;
+    padding: 2px;
+    border: 1px solid #1f1616;
+    border-radius: 4px;
+    font-size: 8px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    
+    font-size: 14px; 
+    
+}
+
+/* Button styling */
+.submit {
+    width: 20%; /* Auto width */
+    height: 10%;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+    border: 3px solid #007bff;
+    border-right: 4px solid #007bff;
+    border-radius: 5px;
+   
+}
+.reset {
+    width: 25%; /* Auto width */
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #e56666;
+    border: none;
+    cursor: pointer;
+    border: 3px solid #e56666;
+    border-radius: 5px;
+    
+}
+.login {
+    width: 20%; /* Auto width */
+    height: 10%;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #1e779d;
+    border: none;
+    cursor: pointer;
+    border-top: 3px solid #1e779d;
+    border-bottom: 3px solid #1e779d;
+    border-left: 1px solid #1e779d;
+    border-right: 1px solid #1e779d;
+    border-radius: 5px;
+   
+}
+
+
+

@@ -1,0 +1,25 @@
+*
+{
+    color:rgb(239, 212, 176)
+}
+
+td
+{
+    color: black;
+}
+
+.delete{
+    color: #fefefe;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: rgb(238, 2, 2);
+    margin: 0px;
+    padding: 0px;
+    border: 5px solid rgb(238, 2, 2);
+    border-left: 10px solid rgb(238, 2, 2);
+    border-right: 10px solid rgb(238, 2, 2);
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
